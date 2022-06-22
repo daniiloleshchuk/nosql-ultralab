@@ -1,6 +1,7 @@
-from writers import EventHubWriter, ConsoleWriter
-from utils import get_endpoint_data_partially
 from os import getenv
+
+from utils import get_endpoint_data_partially
+from writers import EventHubWriter, ConsoleWriter
 
 
 class FileService:

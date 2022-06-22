@@ -1,6 +1,7 @@
 from os import getenv
-from requests import get
+
 from redis import StrictRedis
+from requests import get
 
 
 def get_endpoint_data_partially(endpoint):

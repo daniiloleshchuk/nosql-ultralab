@@ -1,7 +1,7 @@
-from flask import Flask, request
 from dotenv import load_dotenv
-from file_service import FileService
+from flask import Flask, request
 
+from file_service import FileService
 
 load_dotenv()
 app = Flask(__name__)

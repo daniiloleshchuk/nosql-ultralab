@@ -2,8 +2,10 @@ import json
 from abc import ABC, abstractmethod
 from json import dumps
 from os import getenv
-from utils import RedisHelper
+
 from azure.eventhub import EventHubProducerClient, EventData
+
+from utils import RedisHelper
 
 
 class AbstractWriter(ABC):
